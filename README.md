@@ -1,10 +1,10 @@
 # CondicionalCor
 Cor Fora do Prazo = 
-VAR Cor = "#FD625E"
-VAR Atraso = VALUES('Indicadores ANS GCON'[Prazo])
+VAR Cor = "#FD625E" //vermelho
+VAR Atraso = VALUES(//tabela[//coluna])
 RETURN
 SWITCH(
     TRUE(),
-    Atraso = "Atrasado",
+    Atraso = "//texto",
     Cor
 )
